@@ -5,27 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="./js/project.js" defer></script>
 </head>
 <body>
   <h1>Lista de proyectos <a href="index.html">Volver</a></h1>
   <main>
     <ul id="projectList">
-      <!-- Elimina estas líneas y reemplázalas por los elementos que se generen dinámicamente -->
+      <!-- Elimina estas líneas y reemplázalas por los elementos que se generen dinámicamente
       <li data-id="1">Aplicación de Café Infinito</li>
-      <!-- Fin -->
+      Fin -->
     </ul>
     <div id="detailProject" class="hidden">
       <h2>Detalles del proyecto</h2>
       <h3>Nombre del proyecto</h3>
-      <p>Descripción del proyecto</p>
+      <p id="description">Descripción del proyecto</p>
       <p>Número de tareas: <span id="taskCount">--</span></p>
       <p>Número de horas: <span id="totalHours">--</span></p>
       <p><button id="deleteProject">Borrar Projecto</button></p>
       <button id="showTasks">Ver tareas</button>
-      <ul id="tasksList">
-        <!-- Elimina estas líneas y reemplázalas por los elementos que se generen dinámicamente -->
+      <ul id="tasksList" class="hidden">
+        <!-- Elimina estas líneas y reemplázalas por los elementos que se generen dinámicamente
         <li>Tarea: Diseñar interfaz de usuario | Horas: 40</li>
-        <!-- Fin -->
+        Fin -->
       </ul>
     </div>
   </main>
